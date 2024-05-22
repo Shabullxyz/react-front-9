@@ -1,5 +1,7 @@
+import { StockList } from "../components/StockList";
+
 export function Stock(){
     return (
-        <div>Stock is here</div>
+        <StockList/>
     )
 }
