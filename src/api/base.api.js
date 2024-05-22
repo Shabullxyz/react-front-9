@@ -12,6 +12,6 @@ export const getAllStock = () => {
     return stockApi.get('/')
 }
 
-export const loginTask = () => {
-    return axios.post('http://localhost:8000/login/login/')
+export const loginTask = (username, password) => {
+    return loginApi.post("/login/", {username, password});
 }
